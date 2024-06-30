@@ -1,0 +1,21 @@
+.home-header {
+    background: url('../../static/img/main-bg.jpg') no-repeat 100%/cover;
+    width: 100%;
+    padding: 180px 385px 200px 385px;
+
+    position: absolute;
+    top: -60px;
+    z-index: -1;
+}
+.header {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.subheader {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
