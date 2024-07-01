@@ -3,9 +3,20 @@ import { Outlet, Link } from "react-router-dom";
 import './app.scss'
 
 const App = () => {
+    const products = [
+        {name: 'Solimo Coffee Beans 2 kg', country: 'Kenya', price: 10.73, description: '', best: true},
+        {name: 'Presto Coffee Beans 1 kg', country: 'Brazil', price: 15.99, description: '', best: true},
+        {name: '', country: '', price: '', description: '', best: true},
+        {name: '', country: '', price: '', description: '', best: false},
+        {name: '', country: '', price: '', description: '', best: false},
+        {name: '', country: '', price: '', description: '', best: false},
+        {name: '', country: '', price: '', description: '', best: false},
+
+    ]
+
     return(
         <>
-            <nav>
+            <nav className="menu">
                 <ol>
                     <li className="logo">
                         
@@ -23,9 +34,9 @@ const App = () => {
                 </ol>
             </nav>
 
-            <main>
+            <div className="page">
                 <Outlet/>
-            </main>
+            </div>
         </>
     )
     
