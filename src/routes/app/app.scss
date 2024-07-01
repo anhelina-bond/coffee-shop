@@ -1,5 +1,5 @@
 nav {
-    margin: 0 76px;
+    margin: 0 150px;
     display: flex;
     justify-content: left;
     padding-top: 30px;
@@ -8,8 +8,10 @@ nav {
         width: 355px;
         display: flex;
         justify-content: space-between;
+        align-items: end;
         li{
             list-style: none;
+            position: relative;
             a{
                 font-size: 12px;
                 text-decoration: none;
@@ -17,6 +19,16 @@ nav {
                 font-size: 12px;
                 text-decoration: none;
                 color: #fff;
+            }
+            .logo{
+                &-img{
+                    width: 35px;
+                    height: 35px;
+                    position: absolute;
+                    left: -30px;
+                    bottom: -5px;
+                }
+                
             }
             
         }

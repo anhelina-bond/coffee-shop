@@ -7,10 +7,10 @@ const App = () => {
         <>
             <nav>
                 <ol>
-                    <li>
+                    <li className="logo">
                         
                         <Link to={"/"}>
-                            <img src="/../../static/icons/beans-nocolor.png" alt="beans-logo" />
+                            <img src={require("../../static/icons/beans-nocolor.png")} alt="beans-logo" className="logo-img" />
                             Coffee house
                         </Link>
                     </li>
