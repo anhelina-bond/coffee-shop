@@ -1,0 +1,20 @@
+@import "../../routes/app/app.scss";
+
+footer {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-list__item {
+    .black{
+        a {
+            color: #000;
+        }
+    }
+}

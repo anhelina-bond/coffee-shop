@@ -1,0 +1,33 @@
+.card{
+    &-wrapper {
+        width: 100%;
+        min-height: 240px;
+        border-radius: 4px;
+        padding: 22px 21px 28px 21px;
+        background-color: rgba($color: #fff, $alpha: 1);
+        
+        
+    }
+    &-img{
+        text-align: center;
+    }
+    &-name {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    &-country{
+        margin-top: 14px;
+    }
+    &-price {
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: right;
+    }
+}
+.best {
+    background-color: rgba($color: #fff, $alpha: .65);
+    #country {
+        display: none;
+    }
+}
