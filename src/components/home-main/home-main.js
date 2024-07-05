@@ -5,7 +5,7 @@ import ProductList from "../product-list/product-list";
 import './home-main.scss';
 
 const HomeMain = (props) => {
-    const {products} = props;
+    const {products, onShow} = props;
     
 
     return(
@@ -20,7 +20,8 @@ const HomeMain = (props) => {
                 <h2 className="home-best__title">Our best</h2>
                     <ProductList
                         products={products}
-                        best={true}/>
+                        best={true}
+                        onShow={onShow}/>
             </div>
         </main>
     )

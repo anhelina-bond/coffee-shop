@@ -6,13 +6,13 @@ import './app.scss'
 
 const App = () => {
     const products = [
-        {name: 'Solimo Coffee Beans 2 kg', country: 'Kenya', price: 10.73, description: '', best: true, image: "../../static/img/solimo-cb.png"},
-        {name: 'Presto Coffee Beans 1 kg', country: 'Brazil', price: 15.99, description: '', best: true, image: "../../static/img/presto-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: '', best: true, image: "../../static/img/aromistico-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Columbia', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
+        {name: 'Solimo Coffee Beans 2 kg', country: 'Kenya', price: 10.73, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: true, image: "../../static/img/solimo-cb.png",key: 1},
+        {name: 'Presto Coffee Beans 1 kg', country: 'Brazil', price: 15.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: true, image: "../../static/img/presto-cb.png",key: 2},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: true, image: "../../static/img/aromistico-cb.png",key: 3},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: false, image: "../../static/img/aromistico-cb.png",key: 4},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: false, image: "../../static/img/aromistico-cb.png",key: 5},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Columbia', price: 6.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: false, image: "../../static/img/aromistico-cb.png",key: 6},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', best: false, image: "../../static/img/aromistico-cb.png",key: 7},
 
     ]
 

@@ -37,9 +37,8 @@
         // .normal{
             
         // }
-        .active {
+        &:hover {
             box-shadow: none;
-            scale: 1.2;
         }
     
     }

@@ -2,31 +2,35 @@ import Card from '../product-card/product-card';
 
 import './product-list.scss';
 
-const ProductList =({best, products})=> {
+const ProductList =({best, products, onShow})=> {
 
     const makeList=(best)=> {
         if(best) {
-            return products.filter(item => item.best).map((product)=>{
+            return products.filter(item => item.best).map(({key, ...itemProps})=>{
                 return  (
                     <Card 
-                        product={product}
-                        bestProduct={true}/>
+                        key = {key}
+                        {...itemProps}
+                        bestProduct={true}
+                        onShow ={(e) =>{onShow(key)}}/>
                 ) ;
             });
         }
-        return products.map((product)=>{
+        return products.map(({key, ...itemProps})=>{
             return  (
                 <Card 
-                    product={product}
-                    bestProduct={false}/>
+                    key = {key}
+                    {...itemProps}
+                    bestProduct={false}
+                    onShow ={(e) =>{onShow(key)}}/>
             ) ;
         });
     }
     return (
         <>
-            <div className="list-wrapper">
+            <ul className="list-wrapper">
                 {makeList(best)}
-            </div>
+            </ul>
         </>
     )
 }

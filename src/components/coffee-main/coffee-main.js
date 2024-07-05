@@ -13,6 +13,7 @@ class CoffeeMain extends Component {
         this.state={
             filter: "all",
             term: '',
+            id: -1,
         }
     }
 
@@ -40,10 +41,12 @@ class CoffeeMain extends Component {
         }
         return items;
     }
+
+    
     
 
     render() {
-        const {products} = this.props;  
+        const {products, onShow} = this.props;  
         const {filter, term} = this.state;
         const visibleData = this.filterProd(this.searchProd(products, term), filter);
         
@@ -68,6 +71,7 @@ class CoffeeMain extends Component {
                         <ProductList
                             products={visibleData}
                             best={false}
+                            onShow={onShow}
                             />
                     </div>
                 </div>            
