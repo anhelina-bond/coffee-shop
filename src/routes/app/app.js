@@ -11,7 +11,7 @@ const App = () => {
         {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: '', best: true, image: "../../static/img/aromistico-cb.png"},
         {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
         {name: 'AROMISTICO Coffee 1 kg', country: 'Brazil', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
-        {name: 'AROMISTICO Coffee 1 kg', country: 'Colombia', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
+        {name: 'AROMISTICO Coffee 1 kg', country: 'Columbia', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
         {name: 'AROMISTICO Coffee 1 kg', country: 'Kenya', price: 6.99, description: '', best: false, image: "../../static/img/aromistico-cb.png"},
 
     ]

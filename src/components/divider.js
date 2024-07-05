@@ -22,7 +22,7 @@ const Divider = styled.div`
         content: '';
         position: absolute;
         width: 60px;
-        height: 2px;
+        height: 1px;
         background-color: ${props => props.$white ? "#fff" : "#000"};
         z-index: 10;
         top: 16px;

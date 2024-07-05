@@ -1,17 +1,12 @@
 
 import About from "../about/about";
-import Card from "../product-card/product-card";
+import ProductList from "../product-list/product-list";
 
 import './home-main.scss';
 
 const HomeMain = (props) => {
     const {products} = props;
-    const cards = products.filter(item => item.best).map((product)=>{
-            return  (
-                <Card 
-                    product={product}/>
-            ) ;
-        });
+    
 
     return(
         <main>
@@ -23,9 +18,9 @@ const HomeMain = (props) => {
             </div>
             <div className="home-best">
                 <h2 className="home-best__title">Our best</h2>
-                <div className="home-best__wrapper">
-                    {cards}
-                </div>
+                    <ProductList
+                        products={products}
+                        best={true}/>
             </div>
         </main>
     )

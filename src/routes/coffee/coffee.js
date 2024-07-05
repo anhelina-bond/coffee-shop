@@ -1,10 +1,18 @@
+import {useOutletContext} from "react-router-dom";
 
-import './coffee.css'
+import { CoffeeMain } from '../../components/coffee-main/coffee-main';
+
+import './coffee.scss'
 
 const Coffee =() => {
+    const [products] = useOutletContext();
     return(
         <>
-            <div style={{fontSize: 20}}>Coffee</div>
+            <header className='coffee-header'>
+                <h1 className="title">Our Coffee</h1>                    
+            </header>
+            <CoffeeMain
+                products={products}/>
         </>
     )
 }

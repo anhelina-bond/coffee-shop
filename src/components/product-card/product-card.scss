@@ -5,7 +5,11 @@
         border-radius: 4px;
         padding: 22px 21px 28px 21px;
         background-color: rgba($color: #fff, $alpha: 1);
-        
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+        &:hover {
+            box-shadow: 5px 5px 35px 0px rgba(0, 0, 0, 0.25);
+        }
+
         
     }
     &-img{
@@ -17,6 +21,8 @@
     }
     &-country{
         margin-top: 14px;
+        font-size: 14px;
+        text-align: right;
     }
     &-price {
         margin-top: 14px;
@@ -27,6 +33,7 @@
 }
 .best {
     background-color: rgba($color: #fff, $alpha: .65);
+    box-shadow: none;
     #country {
         display: none;
     }

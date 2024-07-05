@@ -1,10 +1,10 @@
 
 import "./product-card.scss"
 
-const Card = ({product}) => {
-    const {name, country, price, best, } = product;
+const Card = ({product, bestProduct}) => {
+    const {name, country, price } = product;
     let classNames = "card-wrapper ";
-    if (best){
+    if (bestProduct){
         classNames+="best ";
     } 
 

@@ -1,13 +1,10 @@
-.home{
-    &-header {
-        background: url('../../static/img/main-bg.jpg') no-repeat 100%/cover;
+header {
         width: 100%;
-        padding: 180px 385px 200px 385px;
-
-    }
-    &-wrapper {
-        margin-top: 400px;
-    }
+        padding-top: 180px;
+        padding-bottom: 200px;
+}
+.home-header {
+    background: url('../../static/img/main-bg.jpg') no-repeat 100%/cover;
 }
 .title {
     font-size: 40px;
@@ -23,7 +20,7 @@
     margin-top: 35px;
 }
 
-.btn {
+.home-btn {
     margin: 0 auto;
     margin-top: 18px;
     display: block;

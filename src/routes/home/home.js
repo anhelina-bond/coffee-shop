@@ -16,11 +16,10 @@ const Home = () => {
                     <img src={require("../../static/icons/beans-white.png")} alt="beans-logo" />
                 </Divider>
                 <p className="subtitle">We makes every day full of energy and taste <br />Want to try our beans?</p>
-                <Link to={"coffee"} className="btn">More</Link>
+                <Link to={"coffee"} className="home-btn">More</Link>
             </header>
             <HomeMain 
-                products={products}/>
-            
+                products={products}/>        
             
 
         </>
