@@ -13,7 +13,6 @@ class CoffeeMain extends Component {
         this.state={
             filter: "all",
             term: '',
-            id: -1,
         }
     }
 
@@ -54,7 +53,7 @@ class CoffeeMain extends Component {
             <main>
                 <div className="coffee-about">
                     <div className="coffee-about__wrapper">
-                        <img src={require("../../static//img/woman.png")} alt="woman" className="coffee-about__image" />
+                        <img src={require("../../static/img/woman.png")} alt="woman" className="coffee-about__image" />
                         <About
                             title={'About our beans'}
                             text={'Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.<br/><br/> Afraid at highly months do things on at. Situation recommend objection do intention so questions. <br/> As greatly removed calling pleased improve an. Last ask him cold feel met spot shy want. Children me laughing we prospect answered followed. At it went is song that held help face.'}
